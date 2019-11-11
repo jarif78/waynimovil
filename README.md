@@ -85,7 +85,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Author
 
-* **ARiel Fernández** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **ARiel Fernández** - [LinkedIn](https://linkedin.com/jarif78)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
