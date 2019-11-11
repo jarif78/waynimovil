@@ -10,6 +10,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
+PHP 7+
+SQLite should be installed on your PC (sudo apt-get install php7.x-sqlite3)
+Text Editor (I use Visual Studio Code)
+
 What things you need to install the software and how to install them
 
 ```
@@ -64,6 +68,13 @@ Add additional notes about how to deploy this on a live system
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
+
+
+* [LARAVEL 5.5](https://laravel.com/) - The web framework used
+* [LARAVEL DATATABLE](https://github.com/yajra/laravel-datatables) - Used to generate data table
+
+
+
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
@@ -72,9 +83,9 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
-## Authors
+## Author
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **ARiel Fernández** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
