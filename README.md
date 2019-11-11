@@ -1,8 +1,10 @@
-# Wayni movil
+# Wayni Movil
 
-One Paragraph of project description goes here
+Desarrollo de aplicativo de importación de archivos del BCRA para la empresa Wayni Movil.
 
 ## Getting Started
+
+Esta aplicación está desarrollada en Laravel 5.5 con base de datos SQLite.
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
