@@ -3,15 +3,16 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Throwable;
 
-class ImportController extends Controller
+class UtilsControllers extends Controller
 {
     public function __construct()
     {
         $this->middleware('auth');
-    }    
-
-    public function file(Request $request)
+    }
+    
+    public function importFile(Request $request)
     {
         $filename = $request->file('file')->store('files');
         
@@ -24,6 +25,7 @@ class ImportController extends Controller
         while( feof($file) == false )
         {
             $line = strval(fgets($file));
+            echo $line;
             
             try {                
                 //$import = new Import;
@@ -43,17 +45,5 @@ class ImportController extends Controller
         }
 
         fclose($file);
-    }
-    
-    public function datatable(Request $request)
-    {
-        if ($request->ajax()) {
-            $data = Import::latest()->get();
-            return Datatables::of($data)
-                    ->addIndexColumn()
-                    ->make(true);
-        }
-      
-        return view('home');
     }
 }
