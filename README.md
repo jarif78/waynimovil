@@ -25,10 +25,9 @@ Esta aplicación está desarrollada en Laravel 5.5, utilizando como base de dato
 
 ### Ejecutando pruebas
 
-```
 Una vez configurado correctamente la aplicación, se deberá registrar un usuario para poder ingresar.
 Dentro se encontrará con una única pantalla donde estará el formulario de carga del archivo a importar y 3 datatables que contendrán la siguiente información:
-```
+
 - Datos de la importación
 - Datos consolidados del deudor (según consigna)
 - Datos consolidados de la entidad (según consigna)
@@ -40,11 +39,10 @@ Dentro se encontrará con una única pantalla donde estará el formulario de car
 
 ### Comentarios extras
 
-```
 El tiempo de desarrollo del producto fue alrededor de 6hs.
 Se considera a la aplicación desarrollada es un prototipo, ya que podría mejorarse varios temas para salida a producción.
 Consideraciones que se podría tener en cuenta:
-```
+
 - Utilizar Postgres como base de datos.
 - Se podría reemplazar el proceso de importación al vuelo por un cronjob para que sea ejecutado en segundo plano.
 - Se podría reemplazar las consultas SQL (deudar y entidad) por tablas actualizables para mejorar la performance con datos masivos.
