@@ -20,3 +20,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::post('/import_file', 'ImportController@file')->name('import_file');
 Route::get('/import_datatable', 'ImportController@datatable')->name('import_datatable');
+Route::get('/import_datatable_entities', 'ImportController@datatable_entities')->name('import_datatable_entities');
+Route::get('/import_datatable_debtors', 'ImportController@datatable_debtors')->name('import_datatable_debtors');
