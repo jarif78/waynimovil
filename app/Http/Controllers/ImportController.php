@@ -81,12 +81,7 @@ class ImportController extends Controller
     {        
         if ($request->ajax()) {
             return datatables(
-                DB::select(DB::raw(
-                    'SELECT entity_id, sum(debt) AS debt
-                    FROM imports
-                    GROUP BY entity_id
-                    ORDER BY entity_id'
-                ))
+                Import::getAllEntities()
             )->toJson();
         }      
         return view('home');
@@ -96,12 +91,7 @@ class ImportController extends Controller
     {        
         if ($request->ajax()) {
             return datatables(
-                DB::select(DB::raw(
-                    'SELECT debtor_id, max(situation) AS situation, sum(debt) AS debt
-                    FROM imports
-                    GROUP BY debtor_id
-                    ORDER BY debtor_id'
-                ))
+                Import::getAllDebtors()
             )->toJson();
         }      
         return view('home');
