@@ -22,7 +22,7 @@
     @endif
 
     <div class="row">
-        <div class="col">
+        <div class="col-12">
             <div class="panel panel-primary">
                 <div class="panel-heading"><strong>Importar archivo de deudores del BCRA</strong></div>
                 <div class="panel-body">

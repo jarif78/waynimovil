@@ -1,10 +1,10 @@
 # WAYNI MOVIL
 
-Desarrollo de aplicativo de importación de archivos del BCRA para la empresa Wayni Movil
+Desarrollo de aplicativo de importación de archivos del BCRA para la empresa Wayni Movil.
 
 ### Comentarios iniciales
 
-Esta aplicación está desarrollada en Laravel 5.5, utilizando como base de datos SQLite
+Esta aplicación está desarrollada en Laravel 5.5, utilizando como base de datos SQLite.
 
 ### Pre-requisitos
 
@@ -14,8 +14,14 @@ Esta aplicación está desarrollada en Laravel 5.5, utilizando como base de dato
 
 ### Instalación
 
-Antes de comenzar se deberá contar con el driver de SQLite en su computadora para que la aplicación funcione correctamente
-Ubuntu/Debian ejecute el siguiente comando: "sudo apt-get install php7.x-sqlite3" (donde la x es la versión de su PHP)
+- Instalar driver de SQLite: "sudo apt-get install php7.x-sqlite3" (donde la x es la versión de su PHP)
+- Clonar repositorio: git clone https://github.com/jarif78/waynimovil.git
+- Renombrar archivo .env.example por .env
+- En la carpeta Database crear archivo "database.sqlite"
+- Ejecutar: composer install
+- Ejecutar: php artisan key:generate
+- Ejecutar: php artisan serve
+- Ingresar desde el navegar a http://localhost:8000/
 
 ### Ejecutando pruebas
 
