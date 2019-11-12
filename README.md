@@ -20,6 +20,7 @@ Esta aplicación está desarrollada en Laravel 5.5, utilizando como base de dato
 - En la carpeta Database crear archivo "database.sqlite"
 - Ejecutar: composer install
 - Ejecutar: php artisan key:generate
+- Ejecutar: php artisan migrate
 - Ejecutar: php artisan serve
 - Ingresar desde el navegar a http://localhost:8000/
 
