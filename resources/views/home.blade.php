@@ -75,7 +75,7 @@
     <div class="row">
         <div class="col-md-6">
             <div class="panel panel-primary">
-                <div class="panel-heading">Registros Deudores</div>
+                <div class="panel-heading"><strong>Registros Deudores</strong></div>
                 <div class="panel-body">
 
                     <div class="table-responsive">
@@ -97,7 +97,7 @@
         </div>
         <div class="col-md-6">
             <div class="panel panel-primary">
-                <div class="panel-heading">Registros Entidades</div>
+                <div class="panel-heading"><strong>Registros Entidades</strong></div>
                 <div class="panel-body">
 
                     <div class="table-responsive">

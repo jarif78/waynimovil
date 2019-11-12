@@ -1,101 +1,49 @@
-# Wayni Movil
+# WAYNI MOVIL
 
-Desarrollo de aplicativo de importación de archivos del BCRA para la empresa Wayni Movil.
+Desarrollo de aplicativo de importación de archivos del BCRA para la empresa Wayni Movil
 
-## Getting Started
+### Comentarios iniciales
 
-Esta aplicación está desarrollada en Laravel 5.5 con base de datos SQLite.
+Esta aplicación está desarrollada en Laravel 5.5, utilizando como base de datos SQLite
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+### Pre-requisitos
 
-### Prerequisites
+- PHP 7+
+- SQLite
+- Text Editor (Visual Studio Code)
 
-PHP 7+
-SQLite should be installed on your PC (sudo apt-get install php7.x-sqlite3)
-Text Editor (I use Visual Studio Code)
+### Instalación
 
-What things you need to install the software and how to install them
+Antes de comenzar se deberá contar con el driver de SQLite en su computadora para que la aplicación funcione correctamente
+Ubuntu/Debian ejecute el siguiente comando: "sudo apt-get install php7.x-sqlite3" (donde la x es la versión de su PHP)
 
-```
-Give examples
-```
+### Ejecutando pruebas
 
-### Installing
+Una vez configurado correctamente la aplicación, se deberá registrar un usuario para poder ingresar
+Dentro se encontrará con una única pantalla donde estará el formulario de carga del archivo a importar y 3 datatables que contendrán la siguiente información:
+- Datos de la importación
+- Datos consolidados del deudor (según consigna)
+- Datos consolidados de la entidad (según consigna)
 
-A step by step series of examples that tell you how to get a development env running
+### Construido con
 
-Say what the step will be
+* [LARAVEL 5.5](https://laravel.com/) - Framework usado
+* [LARAVEL DATATABLE](https://github.com/yajra/laravel-datatables) - Usado para generar las tablas de registros
 
-```
-Give the example
-```
+### Comentarios extras
 
-And repeat
+El tiempo de desarrollo del producto fue alrededor de 6hs.
+Se considera a la aplicación desarrollada un prototipo, ya que se podría ser mejorada para la salida a producción.
+Consideraciones que se podría tener en cuenta:
+- Utilizar Postgres como base de datos
+- 
 
-```
-until finished
-```
+### Autor
 
-End with an example of getting some data out of the system or using it for a little demo
+- **ARiel Fernández** - [LinkedIn](https://www.linkedin.com/in/jarif78/)
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-
-
-* [LARAVEL 5.5](https://laravel.com/) - The web framework used
-* [LARAVEL DATATABLE](https://github.com/yajra/laravel-datatables) - Used to generate data table
-
-
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Author
-
-* **ARiel Fernández** - [LinkedIn](https://linkedin.com/jarif78)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
+### Licencia
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
